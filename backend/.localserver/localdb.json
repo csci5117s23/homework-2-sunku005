@@ -1,75 +1,117 @@
 [
   [
-    "groups",
+    "test",
+    {}
+  ],
+  [
+    "flashcards",
+    {}
+  ],
+  [
+    "flashcars",
+    {}
+  ],
+  [
+    "user",
     {
-      "1876838268f-tlqgzoyzr4rjon": {
-        "name": "MaryJ",
-        "_id": "1876838268f-tlqgzoyzr4rjon"
-      },
-      "187683a6eff-ufa3nrtrmchsjv": {
-        "name": "Frogs",
-        "_id": "187683a6eff-ufa3nrtrmchsjv"
-      },
-      "187683ac111-vup2xa4yhu4rtp": {
-        "name": "Capsule",
-        "_id": "187683ac111-vup2xa4yhu4rtp"
-      },
-      "187683adc0e-ujxu11gvk0w5d5": {
-        "name": "The Internet Explorers",
-        "_id": "187683adc0e-ujxu11gvk0w5d5"
-      },
-      "187683ae7e8-54ub5uoeb8ymi4": {
-        "name": "Team Spirit",
-        "_id": "187683ae7e8-54ub5uoeb8ymi4"
-      },
-      "187683aef39-23w3ybdz2mucfb": {
-        "name": "Six Pack",
-        "_id": "187683aef39-23w3ybdz2mucfb"
-      },
-      "187683af813-lgm03fzbdmrk32": {
-        "name": "Google It",
-        "_id": "187683af813-lgm03fzbdmrk32"
-      },
-      "187683b0074-6yz4zdq3hyr1ct": {
-        "name": "Code Titans",
-        "_id": "187683b0074-6yz4zdq3hyr1ct"
-      },
-      "187683b0ba0-iatdzfme22kkwx": {
-        "name": "The Five Guys",
-        "_id": "187683b0ba0-iatdzfme22kkwx"
-      },
-      "187683b15da-69vlbi6shm033m": {
-        "name": "Upper Five",
-        "_id": "187683b15da-69vlbi6shm033m"
-      },
-      "187683b2248-yxonjga2ms6kjn": {
-        "name": "The Runtime Terrors",
-        "_id": "187683b2248-yxonjga2ms6kjn"
-      },
-      "187683b29b8-pm6lxpuc93gjnp": {
-        "name": "Team Skins",
-        "_id": "187683b29b8-pm6lxpuc93gjnp"
-      },
-      "187683b457c-zkkd2p8mf3j3y9": {
-        "name": "BookTok",
-        "_id": "187683b457c-zkkd2p8mf3j3y9"
+      "1877899f224-low0jhx3zyxxnf": {
+        "_id": "1877899f224-low0jhx3zyxxnf"
       }
     }
+  ],
+  [
+    "users",
+    {}
   ],
   [
     "_dbmetadata",
     {}
   ],
   [
-    "pres",
+    "use3r",
     {
-      "1876857447a-cm6dbtohy8rq4u": {
-        "createdOn": "2023-04-09T23:26:02.357Z",
-        "userId": "user_2OCy6ZMUFaunDAen2o0BXzukzWv",
-        "score": "5",
-        "notes": "apples",
-        "group": "MaryJ",
-        "_id": "1876857447a-cm6dbtohy8rq4u"
+      "187789a4190-oqdtvk50dw1qdm": {
+        "_id": "187789a4190-oqdtvk50dw1qdm"
+      }
+    }
+  ],
+  [
+    "todo",
+    {
+      "18781ac1096-e0e67eusp3ku98": {
+        "done": true,
+        "description": "defg",
+        "lastUpdatedTime": "2023-04-14T22:03:08.177Z",
+        "userId": "user_2OQon1eaQI7laTYe2hxq189LOx5",
+        "name": "abcd",
+        "_id": "18781ac1096-e0e67eusp3ku98"
+      },
+      "18781ad6d9d-8smzw8d8k57jfs": {
+        "done": false,
+        "description": "world",
+        "lastUpdatedTime": "2023-04-14T21:30:39.387Z",
+        "userId": "user_2OQon1eaQI7laTYe2hxq189LOx5",
+        "name": "hello",
+        "_id": "18781ad6d9d-8smzw8d8k57jfs"
+      },
+      "18781b23af2-0xui97cw2sr01s": {
+        "done": false,
+        "description": "brady",
+        "lastUpdatedTime": "2023-04-14T21:35:54.094Z",
+        "userId": "user_2OQon1eaQI7laTYe2hxq189LOx5",
+        "name": "tom",
+        "_id": "18781b23af2-0xui97cw2sr01s"
+      },
+      "18781baaaf1-d1lvlpqxwgudcn": {
+        "done": true,
+        "description": "right now",
+        "lastUpdatedTime": "2023-04-14T21:45:07.049Z",
+        "userId": "user_2OQon1eaQI7laTYe2hxq189LOx5",
+        "name": "time is 4:44",
+        "_id": "18781baaaf1-d1lvlpqxwgudcn"
+      },
+      "18781c080a7-ar9ejp51rgm9ti": {
+        "done": true,
+        "description": "actually7",
+        "lastUpdatedTime": "2023-04-14T22:02:07.434Z",
+        "userId": "user_2OQon1eaQI7laTYe2hxq189LOx5",
+        "name": "actually6",
+        "_id": "18781c080a7-ar9ejp51rgm9ti"
+      }
+    }
+  ],
+  [
+    "todos",
+    {
+      "18778a4d16f-9bw47xj904a7ma": {
+        "name": "todo1",
+        "done": "true",
+        "_id": "18778a4d16f-9bw47xj904a7ma"
+      },
+      "18778a4f161-cuzyr5h4om6u4f": {
+        "name": "todo2",
+        "done": "true",
+        "_id": "18778a4f161-cuzyr5h4om6u4f"
+      },
+      "18778a511f4-39zj4tpamionlt": {
+        "name": "todo3",
+        "done": "true",
+        "_id": "18778a511f4-39zj4tpamionlt"
+      },
+      "18778a598f2-pe86yexy0niniy": {
+        "name": "todo5",
+        "done": "false",
+        "_id": "18778a598f2-pe86yexy0niniy"
+      },
+      "18778a5c179-00usrdzuyd7jdr": {
+        "name": "todo6",
+        "done": "false",
+        "_id": "18778a5c179-00usrdzuyd7jdr"
+      },
+      "18778a7eba0-fkbwny3frs8aq3": {
+        "name": "todo4",
+        "done": "false",
+        "_id": "18778a7eba0-fkbwny3frs8aq3"
       }
     }
   ]

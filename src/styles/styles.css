@@ -1,0 +1,10 @@
+html,
+body{
+    background-color: rgb(92, 139, 181);
+}
+
+.task-item{
+    background-color: rgb(155, 188, 216);
+    margin: 10px;
+
+}
