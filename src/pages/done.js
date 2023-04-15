@@ -52,9 +52,9 @@ export default function Done() {
         <main>
           {loggedIn? 
             <div>
-              <h1>Welcome to the TODO list </h1>
+              <h1>Items that are Completed</h1>
               <h3>Todo items (see <Link href="/todos">todos</Link> for a list of all todos)</h3>
-              <table>
+              {/* <table>
                 <thead>
                   <tr>
                     <th>Name</th>
@@ -66,7 +66,15 @@ export default function Done() {
                 <tbody>
                 {todoList.filter(todoItem => todoItem.done).map(todoItem => <tr><td>{todoItem.name}</td><td>{todoItem.description}</td><td>{todoItem.done? <p>Done</p> : <p>Not Done</p>}</td><td>{todoItem.lastUpdatedTime}</td></tr>)}
                 </tbody>
-              </table>
+              </table> */}
+               {todoList.filter(todoItem => todoItem.done).map(todoItem =>
+                <div className= "task-item">
+                  <div>Task: {todoItem.name}</div>
+                  <div>Description: {todoItem.description}</div>
+                  <div>Status: {todoItem.done? <p><b>Done</b></p> : <p><b>Not Done</b></p>}</div>
+                  <div>{todoItem.lastUpdatedTime}</div>
+                  <div><Link href={"/todo/"+todoItem._id}>click for more details</Link></div>
+                  </div>)}
             </div> 
             :
             <div>

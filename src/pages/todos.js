@@ -88,8 +88,9 @@ export default function Todo() {
           {loggedIn?
             <div>
               <h1>Welcome to the TODO list </h1>
-              <h3>Add a new task: </h3>    
+               
               <form className = "add-task-form" onSubmit={handleSubmit}>
+              <h3>Add a new task: </h3>   
                 <label>
                   Name:
                   <input type="textarea" name="name" />
@@ -135,11 +136,11 @@ export default function Todo() {
 
                 {todoList.map(todoItem => 
                 <div className= "task-item">
-                  <div>{todoItem.name}</div>
-                  <div>{todoItem.description}</div>
-                  <div>{todoItem.done? <p>Done</p> : <p>Not Done</p>}</div>
+                  <div>Task: {todoItem.name}</div>
+                  <div>Description: {todoItem.description}</div>
+                  <div>Status: {todoItem.done? <p><b>Done</b></p> : <p><b>Not Done</b></p>}</div>
                   <div>{todoItem.lastUpdatedTime}</div>
-                  <div><Link href={"/todo/"+todoItem._id}>{todoItem._id}</Link></div>
+                  <div><Link href={"/todo/"+todoItem._id}>click for more details</Link></div>
                   </div>)}
 
 

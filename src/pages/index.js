@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <div>
-      <h3>Welcome to Anoushka's todo list</h3>
+      <h1>Welcome to Anoushka's todo list</h1>
       <SignIn redirectUrl="/todos" />
     </div>
     

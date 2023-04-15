@@ -6,5 +6,24 @@ body{
 .task-item{
     background-color: rgb(155, 188, 216);
     margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
 
+
+}
+
+.add-task-form{
+    background-color: rgb(188, 207, 224);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+}
+
+.id-update{
+    background-color: rgb(188, 207, 224);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
 }

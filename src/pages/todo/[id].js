@@ -101,8 +101,9 @@ export default function Todo() {
         <main >
           {loggedIn? 
           <div>
-            <h3>TODO item: {id}</h3>
-            <form onSubmit={handleSubmit}>
+            <h1>TODO item: {name}</h1>
+            <h3> description: {description}</h3>
+            <form className = "id-update" onSubmit={handleSubmit}>
               <label htmlFor="name">Todo item name:</label><br/>
               <input type="text" id="name" name="name" defaultValue={name}/><br/>
               <label htmlFor="description">Todo item description:</label><br/>
