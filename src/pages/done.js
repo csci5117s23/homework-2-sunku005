@@ -10,7 +10,7 @@ export default function Done() {
     const { isLoaded, userId, sessionId, getToken } = useAuth();
     const [loggedIn, setLoggedIn] = useState(false);
     const [todoList, setTodoList] = useState([]);
-    const API_ENDPOINT = BACKEND_BASE + "todo/";
+    const API_ENDPOINT = BACKEND_BASE + "/todo/";
     const getDoneFromApi = async (authToken) => {
       // TODO BEFORE SUBMITTING SET THIS VALUE FROM AN ENV VARIABLE
       const response = await fetch(API_ENDPOINT, {

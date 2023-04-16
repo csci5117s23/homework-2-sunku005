@@ -10,7 +10,7 @@ const BACKEND_BASE = process.env.NEXT_PUBLIC_BACKEND_BASE_URL
 export default function Todo() {
     const { isLoaded, userId, sessionId, getToken } = useAuth();
     const [loggedIn, setLoggedIn] = useState(false);
-    const TODO_ENDPOINT = BACKEND_BASE + "todo/";
+    const TODO_ENDPOINT = BACKEND_BASE + "/todo/";
     const [name, setName] = useState("");
     const [description, setDescription] = useState("");
     const [done, setDone] = useState(false);
@@ -36,6 +36,8 @@ export default function Todo() {
             setDescription(data.description);
             setDone(data.done);
           }
+        } else {
+          console.log("errors in response object")
         }
       }
     }
