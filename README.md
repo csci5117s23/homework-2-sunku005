@@ -12,6 +12,7 @@ Please fill out all of the following sections to help us grade your submission:
 ## Link to Site
 
 https://melodic-pixie-c8c220.netlify.app/
+(NOTE: I'm having hosting issues, so if possible, run client on localhost 3000 and backend on 3001)
 
 ## Challenge Task
 

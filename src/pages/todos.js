@@ -10,6 +10,7 @@ export default function Todo() {
     const { isLoaded, userId, sessionId, getToken } = useAuth();
     const [loggedIn, setLoggedIn] = useState(false);
     const [todoList, setTodoList] = useState([]);
+    console.log("backend base: ", BACKEND_BASE)
     const API_ENDPOINT = BACKEND_BASE + "todo/";
     const getTodosFromApi = async (authToken) => {
       // DON"T FORGET: SET THIS VALUE FROM AN ENV VARIABLE
