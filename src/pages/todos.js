@@ -11,7 +11,7 @@ export default function Todo() {
     const [loggedIn, setLoggedIn] = useState(false);
     const [todoList, setTodoList] = useState([]);
     console.log("backend base: ", BACKEND_BASE)
-    const API_ENDPOINT = BACKEND_BASE + "todo/";
+    const API_ENDPOINT = BACKEND_BASE + "/todo/";
     const getTodosFromApi = async (authToken) => {
       // DON"T FORGET: SET THIS VALUE FROM AN ENV VARIABLE
       const response = await fetch(API_ENDPOINT, {
